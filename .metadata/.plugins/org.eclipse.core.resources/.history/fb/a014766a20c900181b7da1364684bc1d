@@ -1,0 +1,22 @@
+/***
+ * CALL CENTER
+ * Imagine you have a call center with three levels of employees: 
+ * respondent, manager, and direct. An incoming telephone must be first allocated to
+ * a respondent who is free. If the respondent can't handle the call, he or she must
+ * escalate the call to a manager. If the manager is not free or not able to handle it,
+ * then the call should be escalated to a director. 
+ * Design the classes and data structures 
+ */
+
+package Q7_02_Call_Center;
+
+public class Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		CallHandler ch = new CallHandler();
+	}
+
+}

@@ -1,0 +1,39 @@
+/***
+ * Suit is an enum with 4 values.
+ * Suit has 1 private member value to store the value of the suit,
+ * 1 private constructor to initialize value, and 2 public methods
+ * for getting the value and getting the suit from a value.
+ */
+
+package Q7_01_Deck_of_Cards;
+
+public enum Suit { 
+	Club (0),
+	Diamond (1),
+	Heart (2),
+	Spade (3);
+	
+	private int value;
+	private Suit(int v) {
+		value = v;
+	}
+	
+	public int getValue() {
+		return value;
+	}
+	
+	public static Suit getSuitFromValue(int value) {
+		switch (value) {
+		case 0:
+			return Suit.Club;
+		case 1:
+			return Suit.Diamond;
+		case 2:
+			return Suit.Heart;
+		case 3: 
+			return Suit.Spade;
+		default:
+				return null;
+		}
+	}
+}

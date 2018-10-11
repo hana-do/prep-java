@@ -1,0 +1,22 @@
+/*
+ * DECK OF CARDS: 
+ * Design the data structures for a generic deck of cards. Explain how you would subclass the data structures to implement blackjack.
+ */
+
+package Q7_01_Deck_of_Cards;
+
+public class Question {
+	public static void main(String[] args) {
+		int numHands = 5;
+		BlackJackGameAutomator automator = new BlackJackGameAutomator(numHands);
+		automator.initializeDeck();
+		boolean success = automator.dealInitial();
+		if(!success) {
+			System.out.println("Error. Out of cards.");
+		} else {
+			System.out.println("-- Initial --");
+			automator.printHandsAndScore();
+			
+		}
+	}
+}

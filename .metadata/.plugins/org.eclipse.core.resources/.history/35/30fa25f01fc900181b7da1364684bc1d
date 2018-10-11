@@ -1,0 +1,19 @@
+/***
+ * CALL CENTER
+ * Imagine you have a call center with three levels of employees: 
+ * respondent, manager, and direct. An incoming telephone must be first allocated to
+ * a respondent 
+ */
+
+package Q7_02_Call_Center;
+
+public class Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		CallHandler ch = new CallHandler();
+	}
+
+}

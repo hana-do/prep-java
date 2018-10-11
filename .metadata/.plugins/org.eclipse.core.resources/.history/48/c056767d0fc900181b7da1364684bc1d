@@ -1,0 +1,10 @@
+/*
+ * DECK OF CARDS: 
+ * Design the data structures for a generic deck of cards. Explain how you would subclass the data structures to implement blackjack.
+ */
+
+package Q7_01_Deck_of_Cards;
+
+public class Question {
+	public static void main(String[] args)
+}
